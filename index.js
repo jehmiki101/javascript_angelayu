@@ -16,3 +16,12 @@ function test() {
     console.log("b is " + b);
 }
 
+// Alert two variables
+var name = "Jessica";
+var message = "Hello";
+
+alert(message + " there, " + name);
+
+// String lengths
+var text = prompt("Write some text.");
+alert("You have written " + text.length + ", you have " + (140 - text.length) + "." );
