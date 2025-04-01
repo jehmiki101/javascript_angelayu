@@ -25,3 +25,12 @@ alert(message + " there, " + name);
 // String lengths
 var text = prompt("Write some text.");
 alert("You have written " + text.length + ", you have " + (140 - text.length) + "." );
+
+// Slice strings
+var name = "Jessica";
+name.slice(0,1); //(inicial, end-not including)
+
+var tweet = prompt("Write some text: ");
+console.log(tweet.slice(0,140));
+
+console.log(prompt("Write some text: ").slice(0,140));
