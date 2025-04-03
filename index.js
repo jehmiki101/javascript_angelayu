@@ -42,3 +42,8 @@ name = name.toLowerCase();
 
 var name = prompt("What is your name?");
 alert("Hello, " + name.slice(0,1).toUpperCase() + name.slice(1,name.length).toLowerCase());
+
+// 87. Basic Arithmetic and the Modulo Operator in Javascript
+var dogAge = prompt("How old is your dog? ");
+var humanAge = ((dogAge - 2) * 4) + 21;
+console.log("Your dog is " + humanAge + "years old in human years.");
